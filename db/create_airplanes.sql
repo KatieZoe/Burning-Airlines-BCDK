@@ -1,0 +1,6 @@
+CREATE TABLE airplanes (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  rows INTEGER,
+  columns INTEGER
+);
