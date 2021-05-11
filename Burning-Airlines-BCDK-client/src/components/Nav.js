@@ -21,6 +21,9 @@ class Nav extends Component {
             <li>
               <Link to="/flight/:flightID">Flight Details</Link>
             </li>
+            <li>
+              <Link to="/admin">Admin</Link>
+            </li>
           </ul>
         </nav>
     );

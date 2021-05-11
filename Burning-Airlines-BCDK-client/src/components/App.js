@@ -6,6 +6,7 @@ import Flights from "./Flights";
 import Search from "./Search";
 import FlightDetails from "./FlightDetails";
 import Nav from "./Nav";
+import Admin from "./Admin";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Route exact path="/airplanes" component={Airplanes}/>;
           <Route exact path="/flights" component={Flights}/>;
           <Route exact path="/search" component={Search}/>;
-          <Route exact path="/flight/:flightID" component={FlightDetails}/>;   
+          <Route exact path="/admin" component={Admin}/>;
+          <Route exact path="/flight/:flightID" component={FlightDetails}/>;
         </Switch>
       </div>
     </Router>
