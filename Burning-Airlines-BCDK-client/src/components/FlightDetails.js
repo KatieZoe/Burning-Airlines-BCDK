@@ -1,11 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class FlightDetails extends Component {
-  render () {
+  render() {
     return (
-      <h1> Welcome to FlightDetails</h1>
+      <div>
+        {React.createElement(
+          "p",
+          null,
+          React.createElement("button", null, "A1")
+        )}
+      </div>
     );
   }
 }
 
-export default FlightDetails
+export default FlightDetails;
